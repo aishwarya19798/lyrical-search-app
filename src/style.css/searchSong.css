@@ -1,0 +1,54 @@
+.searchSong{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid rgb(0, 248, 174);
+    padding: 20px;
+    margin:20px;
+}
+
+.searchSong h3{
+    font-weight: normal;
+    margin:15px;
+    margin-bottom: 0;
+}
+
+.searchSong h1{
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.title-input{
+    margin:15px;
+    padding: 5px 180px;
+    padding-left: 5px;
+    outline: 0;
+    /* text-transform: capitalize; */
+}
+
+.search-btn{
+    padding: 5px 135px;
+    background-color: rgb(0, 248, 174);
+    border:0;
+    outline: 0;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px 1px rgb(3, 248, 166);
+}
+
+.parentContainer{
+    display:flex;
+    flex-direction: column;
+}
+
+.sendSearchString{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title h2{
+    font-weight: normal;
+    text-align: center;
+}

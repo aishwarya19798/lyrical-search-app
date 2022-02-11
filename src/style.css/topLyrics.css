@@ -1,0 +1,47 @@
+.parentSongContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topLyrics h2{
+    font-weight: normal;
+    text-align: center;
+}
+
+.song-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:2px solid rgb(0, 248, 174);
+    padding: 20px;
+    margin:20px;
+    height:150px;
+    max-width: 250px;
+    width:100%;
+}
+
+.song-container h3, h4{
+    margin:5px 0px;
+    font-weight: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.parent-viewBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.view-btn{
+    padding: 5px 50px;
+    background-color: rgb(0, 248, 174);
+    border:0;
+    outline: 0;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px 1px rgb(3, 248, 166);
+    margin:10px 0px;
+}
